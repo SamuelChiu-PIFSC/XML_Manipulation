@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Editable XML Document Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="chat-box">
+  <div class="header">
+    <svg class="header-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.6667 1.33334H4.00004C3.26366 1.33334 2.66671 1.9303 2.66671 2.66668V13.3333C2.66671 14.0697 3.26366 14.6667 4.00004 14.6667H12C12.7364 14.6667 13.3334 14.0697 13.3334 13.3333V4.00001L10.6667 1.33334Z" fill="#79a1cf" stroke="#79a1cf" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Live Editable XML Document Assistant
+  </div>
+
+  <div class="messages" id="chat">
+    <div class="msg bot">
+      Hello Samuel! Click or type <span class="clickable-tag" onclick="sendQuery('item-identification')">item-identification</span> to edit fields in real-time.
+    </div>
+  </div>
+
+  <div class="input-area">
+    <div class="input-container">
+      <input type="text" id="userInput" placeholder="Ask for a section..." onkeydown="if(event.key==='Enter') sendMsg()" />
+    </div>
+    <button class="send-btn" onclick="sendMsg()">
+      <svg class="send-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+      </svg>
+      Send
+    </button>
+  </div>
+</div>
+
+<div class="help-icon">?</div>
+
+<script>
+let currentSection = "";
+
+function sendQuery(text) {
+  document.getElementById('userInput').value = text;
+  sendMsg();
+}
+
+async function sendMsg() {
+  const input = document.getElementById('userInput');
+  const query = input.value.trim();
+  if(!query) return;
+
+  appendMsg(query, 'user');
+  input.value = '';
+
+  try {
+    const res = await fetch('/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: query })
+    });
+
+    const data = await res.json();
+
+    if (data.is_prose) {
+      currentSection = data.section_name;
+      const cardHtml = renderEditableCard(data.prose_dict);
+      appendMsg(cardHtml, 'bot', true);
+    } else {
+      appendMsg(data.reply, 'bot');
+    }
+
+  } catch (err) {
+    const errorHtml = `
+      <span class="error-icon">⚠</span>
+      Failed to reach the server.
+    `;
+    appendMsg(errorHtml, 'bot', true, 'error');
+  }
+}
+
+function renderEditableCard(dataDict) {
+  let listItems = '';
+  for (const [key, val] of Object.entries(dataDict)) {
+    listItems += `
+      <li>
+        <strong>• ${key}:</strong> 
+        <span class="editable-value" contenteditable="true" data-key="${key}">${val}</span>
+      </li>
+    `;
+  }
+
+  return `
+    <div class="prose-editor-card" id="active-card">
+      <ul>${listItems}</ul>
+      <button class="save-btn" onclick="saveXmlChanges()">💾 Save Changes to XML</button>
+    </div>
+  `;
+}
+
+async function saveXmlChanges() {
+  const fields = document.querySelectorAll('#active-card .editable-value');
+  const updates = {};
+
+  fields.forEach(field => {
+    const key = field.getAttribute('data-key');
+    const value = field.innerText.trim();
+    updates[key] = value;
+  });
+
+  const res = await fetch('/update', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ section_name: currentSection, updates: updates })
+  });
+
+  const data = await res.json();
+  alert(data.message);
+}
+
+function appendMsg(content, sender, isHtml=false, extraClass='') {
+  const chat = document.getElementById('chat');
+  const div = document.createElement('div');
+  div.className = `msg ${sender} ${extraClass}`;
+  
+  if(isHtml) div.innerHTML = content;
+  else div.textContent = content;
+  
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+}
+</script>
+
+</body>
+</html>
