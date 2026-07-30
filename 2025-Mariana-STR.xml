@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inport-metadata xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 version="1.11"
+                 source="https://www.fisheries.noaa.gov">
+   <item-identification>
+      <catalog-item-id>37071</catalog-item-id>
+      <title>National Coral Reef Monitoring Program: Water Temperature Data from Subsurface Temperature Recorders (STRs) deployed at coral reef sites in the Mariana Archipelago from 2011 to 2025</title>
+      <short-name>NCRMP: STRs Marianas</short-name>
+      <catalog-item-type>Data Set</catalog-item-type>
+      <metadata-workflow-state ccs-id="4">Draft</metadata-workflow-state>
+      <parent-catalog-item-id>32957</parent-catalog-item-id>
+      <parent-title>Marianas Archipelago</parent-title>
+      <parent-catalog-item-type>Project</parent-catalog-item-type>
+      <status>On Going</status>
+      <creation-date>2017</creation-date>
+      <revision-date>2025</revision-date>
+      <abstract>Water temperature time series data provided in this data set are from subsurface temperature recorders (STRs) deployed for a period of 3-8 years at permanent sites within coral reef ecosystems by the NOAA Pacific Islands Fisheries Science Center (PIFSC), Ecosystem Sciences Division (ESD; formerly the Coral Reef Ecosystem Division) as part of the NOAA National Coral Reef Monitoring Program (NCRMP). The STRs were deployed from 2011 to 2025 and recovered during ESD-led NCRMP missions to the Marianas in 2014, 2017, 2022 and 2025.
+
+The high-accuracy temperature loggers made by Sea-Bird Electronics (SBE) and RBR Ltd. USA were weighted and strapped to solid substrate on the seafloor by SCUBA divers at depths ranging from 0 to 30 meters at permanent monitoring sites established by ESD's Ocean and Climate Change team. Sample interval of STRs varies between 30 seconds and 60 minutes. The current (2025) sample interval is typically 5 minutes. Each time an STR was recovered another STR was typically deployed at the same location and depth and was assigned the same OCC_SITEID. Data were downloaded using the SeaBird SeaTerm V2 or RBR Ruskin V2 program and post-processed using R to trim "out of water" data.</abstract>
+      <purpose>Water temperature time series data aid in the monitoring of seawater temperature variability and are used to help scientists assess and understand how coral reefs monitored as part of the NOAA National Coral Reef Monitoring Program (NCRMP) are responding to thermal stress.</purpose>
+      <supplemental-information>The NOAA National Coral Reef Monitoring Program (NCRMP) details a long term approach to provide an ecosystem perspective via monitoring climate, fish, benthic, and socioeconomic variables in a consistent and integrated manner. The NCRMP coordinates various NOAA Coral Reef Conservation Program (CRCP) biological, physical, and human dimensions activities into a cohesive NOAA-wide effort. Through the implementation of the NCRMP, NOAA is able to clearly and concisely communicate results of national-scale monitoring to national, state, and territorial policy makers, resource managers, and the public on a periodic basis.
+
+NCRMP is a framework for conducting sustained observations of biological, climate, and socioeconomic indicators at 10 priority coral reefs across the U.S. and its territories. This integrated approach consolidates monitoring of coral reefs under a uniform method in the Pacific, Atlantic, Caribbean, and the Gulf of Mexico for the first time. NCRMP is funded by the CRCP and supported by NOAA Fisheries, NOAA National Centers for Coastal Ocean Science (NCCOS), NOAA's Atlantic Oceanographic &amp; Meteorological Laboratory (AOML), NOAA Coral Reef Watch, and many other partners.
+
+The Ecosystem Sciences Division (ESD) at NOAA Fisheries is leading in-situ climate monitoring in the U.S. Pacific Islands Region. The climate component of NCRMP in the Pacific provides a comprehensive view of climate change impacts on coral reef ecosystems and helps identify areas of resilience and vulnerability. The key indicators used to identify and monitor climate-driven trends include 1) thermal stress caused by changes in sea temperature, 2) ocean acidification resulting from changes in carbonate chemistry, and 3) ecological impacts by collecting data on coral growth rates, erosion, and community structure to understand the impacts of thermal stress and ocean acidification on the ecosystem. Each year, ESD scientists work closely with CRCP and partners during Reef Assessment and Monitoring Program (RAMP) missions to collect data using moored oceanographic (subsurface temperature recorders) and ecological (calcification accretion units [CAUs] and autonomous reef monitoring structures [ARMS]) instruments stationed at fixed sites in the Pacific Ocean, and water samples collected by divers. The in-situ data and satellite-based observations are also used in modeling efforts. Innovative analysis techniques are used to develop products that give fellow scientists, managers, decision makers and the public a better understanding of a region's resources and how they are changing over time.</supplemental-information>
+      <doi>doi:10.7289/v5nk3cb1</doi>
+      <doi-registration-authority>NOAA</doi-registration-authority>
+   </item-identification>
+   <keywords>
+      <keyword controlled="Yes">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus version="23.3">Global Change Master Directory (GCMD) Data Center Keywords</thesaurus>
+         <keyword identifier="e70ba1f9-0c6a-4a8b-8d67-47cdd08173bf">DOC/NOAA/NMFS/PIFSC/ESD &gt; Ecosystem Sciences Division, Pacific Islands Fisheries Science Center, National Marine Fisheries Service, NOAA, U.S. Department of Commerce</keyword>
+      </keyword>
+      <keyword controlled="Yes">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus version="23.3">Global Change Master Directory (GCMD) Science Keywords</thesaurus>
+         <keyword identifier="fa3bc02d-31a7-4456-b716-a8b8f8393c86">EARTH SCIENCE &gt; BIOSPHERE &gt; ECOSYSTEMS &gt; MARINE ECOSYSTEMS &gt; REEF &gt; CORAL REEF</keyword>
+      </keyword>
+      <keyword controlled="Yes">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus version="23.3">Global Change Master Directory (GCMD) Science Keywords</thesaurus>
+         <keyword identifier="46206e8c-8def-406f-9e62-da4e74633a58">EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; WATER TEMPERATURE</keyword>
+      </keyword>
+      <keyword controlled="Yes">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>ISO 19115 Topic Category</thesaurus>
+         <keyword>oceans</keyword>
+      </keyword>
+      <keyword controlled="Yes">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus version="23.3">Global Change Master Directory (GCMD) Location Keywords</thesaurus>
+         <keyword identifier="da0e4453-5f69-4656-a7f1-a68da6640dc8">OCEAN &gt; PACIFIC OCEAN &gt; WESTERN PACIFIC OCEAN &gt; MICRONESIA &gt; GUAM</keyword>
+      </keyword>
+      <keyword controlled="Yes">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus version="23.3">Global Change Master Directory (GCMD) Location Keywords</thesaurus>
+         <keyword identifier="39fefc6a-a548-4a7f-96a8-434dae6d56ed">OCEAN &gt; PACIFIC OCEAN &gt; WESTERN PACIFIC OCEAN &gt; MICRONESIA &gt; NORTHERN MARIANA ISLANDS</keyword>
+      </keyword>
+      <keyword controlled="Yes">
+         <keyword-type>Instrument</keyword-type>
+         <thesaurus version="23.3">Global Change Master Directory (GCMD) Instrument Keywords</thesaurus>
+         <keyword identifier="aa58ecd2-c726-48c5-86a3-ec592f6dc95e">TEMPERATURE LOGGERS &gt; TEMPERATURE LOGGERS</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CRCP Project</thesaurus>
+         <keyword>587</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CRCP Project</thesaurus>
+         <keyword>743</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CRCP Project</thesaurus>
+         <keyword>National Coral Reef Monitoring Program</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CRCP Project</thesaurus>
+         <keyword>Pacific Reef Assessment and Monitoring Program: Monitoring coral reef ecosystems of the US Pacific Islands and Atolls</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CoRIS Discovery Thesaurus</thesaurus>
+         <keyword>Numeric Data Sets &gt; Oceanography</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CoRIS Theme Thesaurus</thesaurus>
+         <keyword>EARTH SCIENCE &gt; Biosphere &gt; Aquatic Habitat &gt; Reef Habitat</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CoRIS Theme Thesaurus</thesaurus>
+         <keyword>EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef Monitoring and Assessment</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CoRIS Theme Thesaurus</thesaurus>
+         <keyword>EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef Monitoring and Assessment &gt; In Situ Physical</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CoRIS Theme Thesaurus</thesaurus>
+         <keyword>EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Coral Reefs</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CoRIS Theme Thesaurus</thesaurus>
+         <keyword>EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>CoRIS Theme Thesaurus</thesaurus>
+         <keyword>EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature &gt; Bottom</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC DATA TYPES THESAURUS</thesaurus>
+         <keyword>WATER TEMPERATURE</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC OBSERVATION TYPES THESAURUS</thesaurus>
+         <keyword>in situ</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC OBSERVATION TYPES THESAURUS</thesaurus>
+         <keyword>physical</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC OBSERVATION TYPES THESAURUS</thesaurus>
+         <keyword>time series</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC PROJECT NAMES THESAURUS</thesaurus>
+         <keyword>CORAL REEF STUDIES</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC PROJECT NAMES THESAURUS</thesaurus>
+         <keyword>Coral Reef Conservation Program</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC PROJECT NAMES THESAURUS</thesaurus>
+         <keyword>National Coral Reef Monitoring Program</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NODC SUBMITTING INSTITUTION NAMES THESAURUS</thesaurus>
+         <keyword>US DOC; NOAA; NMFS; Pacific Islands Fisheries Science Center; Ecosystem Sciences Division</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>CRED</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>CREP</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>Coral Reef Ecosystem Division</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>Coral Reef Ecosystem Program</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>ESD</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>Ecosystem Sciences Division</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>NCRMP</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>National Coral Reef Monitoring Program</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>PIFSC</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>Pacific Islands Fisheries Science Center</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>RAMP</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Theme</keyword-type>
+         <keyword>Reef Assessment and Monitoring Program</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Agrihan Island &gt; Agrihan Island (15N145E0002)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Aguihan &gt; Aguihan Island (Aguijan) (14N145E0006)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Alamagan Island &gt; Alamagan Island (17N145E0002)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Asuncion Island &gt; Asuncion Island (19N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Farallon de Pajaros &gt; Farallon de Pajaros (20N144E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Guguan &gt; Guguan Island (17N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Maug &gt; Maug Island (20N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Northern Mariana Islands &gt; Northern Mariana Islands ( CNMI ) (18N146E0000)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Northern Mariana Islands&gt; Zealandia Bank (16N145E0005)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Pagan &gt; Pagan Island (18N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Rota &gt; Rota Island ( Luta ) (14N145E0007)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Saipan &gt; Saipan Island (15N145E0002)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Sarigan Island &gt; Sarigan Island (16N145E0003)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Supply Reef (16N145E0004)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; Northern Mariana Islands &gt; Tinian &gt; Tinian Island (14N145E0005)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>COUNTRY/TERRITORY &gt; United States of America &gt; Guam &gt; Guam (13N144E0000)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Agrihan Island &gt; Agrihan Island (15N145E0002)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Aguihan Island Reefs &gt; Aguihan Island (Aguijan) (14N145E0006)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Alamagan Island &gt; Alamagan Island (17N145E0002)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Asuncion Island &gt; Asuncion Island (19N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Farallon de Pajaros &gt; Farallon de Pajaros (20N144E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Guam &gt; Guam (13N144E0000)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Guguan Island &gt; Guguan Island (17N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Mariana Archipelago &gt; Northern Mariana Islands ( CNMI ) (18N146E0000)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Mariana Islands&gt; Zealandia Bank (16N145E0005)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Maug Island &gt; Maug Island (20N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Pagan Island &gt; Pagan Island (18N145E0001)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Rota Island &gt; Rota Island ( Luta ) (14N145E0007)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Saipan Island &gt; Saipan Island (15N145E0002)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Sarigan Island &gt; Sarigan Island (16N145E0003)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Supply Reef (16N145E0004)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>CoRIS Place Thesaurus</thesaurus>
+         <keyword>OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Tinian Island Reefs &gt; Tinian Island (14N145E0005)</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>NODC SEA AREA NAMES THESAURUS</thesaurus>
+         <keyword>Marianas Trench Marine National Monument</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>NODC SEA AREA NAMES THESAURUS</thesaurus>
+         <keyword>NW Pacific</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <keyword>CNMI</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Commonwealth of the Northern Mariana Islands</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Mariana Archipelago</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Mariana Islands</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Marianas</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <thesaurus>NODC INSTRUMENT TYPES THESAURUS</thesaurus>
+         <keyword>Temperature Sensors</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>RBRsolo3T</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>SBE 39plus</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>SBE 56</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>STR</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>Subsurface temperature recorder</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>temperature logger</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>temperature recorder</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>temperature sensor</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Instrument</keyword-type>
+         <keyword>thermistor</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Platform</keyword-type>
+         <thesaurus>NODC PLATFORM NAMES THESAURUS</thesaurus>
+         <keyword>HI'IALAKAI</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Platform</keyword-type>
+         <thesaurus>NODC PLATFORM NAMES THESAURUS</thesaurus>
+         <keyword>Oscar Elton Sette</keyword>
+      </keyword>
+      <keyword controlled="No">
+         <keyword-type>Platform</keyword-type>
+         <thesaurus>NODC PLATFORM NAMES THESAURUS</thesaurus>
+         <keyword>RAINIER</keyword>
+      </keyword>
+   </keywords>
+   <physical-location>
+      <organization>Pacific Islands Fisheries Science Center</organization>
+      <city>Honolulu</city>
+      <state-province>HI</state-province>
+      <country>USA</country>
+   </physical-location>
+   <data-set-information>
+      <data-set-scope-code>Data Set</data-set-scope-code>
+      <data-set-type>CSV Files</data-set-type>
+      <maintenance-frequency>As Needed</maintenance-frequency>
+      <maintenance-note>Updated December 2025 with STR data collected in 2025 and changes to the format of all Date/Time data columns of the STR entity.
+
+Updated April 2020 for all years following STR database QC and migration and resubmission of the 2013 and 2016 data, and for the 2019 data submission.</maintenance-note>
+      <data-presentation-form>Table (digital)</data-presentation-form>
+      <entity-attribute-overview>The temperature data includes metadata for each recorded observation and water temperature in degrees Celsius. Sample interval ranges from 1-60 min, depending on the instrument and deployment.</entity-attribute-overview>
+      <entity-attribute-detail-url>https://www.fisheries.noaa.gov/inport/item/37074</entity-attribute-detail-url>
+      <distribution-liability>While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</distribution-liability>
+      <data-set-credit>NOAA Fisheries Ecosystem Sciences Division and funded by the NOAA Coral Reef Conservation Program</data-set-credit>
+   </data-set-information>
+   <entity-attribute-information partial-listing="No" total-count="1">
+      <entity>
+         <item-identification>
+            <catalog-item-id>37074</catalog-item-id>
+            <title>STR Entity</title>
+            <metadata-workflow-state ccs-id="4">Draft</metadata-workflow-state>
+            <status>Completed</status>
+            <abstract>Subsurface Temperature Recorders Entity and Attributes</abstract>
+         </item-identification>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <description>Subsurface Temperature Recorders</description>
+            <change-summary>In 2022 some column names were updated:
+- MISSIONINSTRUMENTID updated as INSTFIELDSUMMARYID
+- DEPTH updated to DEPTH_M
+- Other column names were updated with snake case lettering e.g. RETRIEVECRUISE to RETRIEVE_CRUISE
+</change-summary>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="23">
+            <data-attribute cc-id="387410">
+               <seq-order>1</seq-order>
+               <name>OCC_SITEID</name>
+               <data-storage-type>TEXT</data-storage-type>
+               <max-length>75</max-length>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>A 3-dimensional identifier for the fixed location (LATITUDE and LONGITUDE) and depth where the subsurface temperature logger (STR) was deployed at the island or atoll (LOCATION). Includes "OCC" prefix, a 3-letter island code (derived from LOCATION), and a 3-digit site number. A newly deployed instrument is assigned to a pre-existing OCC_SITEID if its coordinates are within a 100-m diameter and its depth is within 3-m depth cylinder of a pre-existing OCC_SITEID, otherwise, the instrument is assigned a new OCC_SITEID.</description>
+            </data-attribute>
+            <data-attribute cc-id="387403">
+               <seq-order>2</seq-order>
+               <name>LATITUDE</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Latitude in decimal degrees, WGS84, for the OCC_SITEID where the STR was deployed.</description>
+               <units>decimal degree</units>
+            </data-attribute>
+            <data-attribute cc-id="387405">
+               <seq-order>3</seq-order>
+               <name>LONGITUDE</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Longitude in decimal degrees, WGS84, for the OCC_SITEID where the STR was deployed.</description>
+               <units>decimal degree</units>
+            </data-attribute>
+            <data-attribute cc-id="387399">
+               <seq-order>4</seq-order>
+               <name>DEPTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Depth in meters for the OCC_SITEID where the STR was deployed. Depths typically range from 0-30 m.</description>
+               <units>meters</units>
+            </data-attribute>
+            <data-attribute cc-id="387407">
+               <seq-order>5</seq-order>
+               <name>REGION</name>
+               <data-storage-type>TEXT</data-storage-type>
+               <max-length>255</max-length>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>The region in the U.S. Pacific Islands region where the STR was deployed: American Samoa, Pacific Remote Island Areas, Mariana Archipelago, main Hawaiian Islands, Northwestern Hawaiian Islands.</description>
+            </data-attribute>
+            <data-attribute cc-id="1055960">
+               <seq-order>6</seq-order>
+               <name>LOCATION</name>
+               <data-storage-type>TEXT</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Name of island or atoll where OCC_SITEID is located in the U.S. Pacific Islands region (REGION).</description>
+            </data-attribute>
+            <data-attribute cc-id="387402">
+               <seq-order>7</seq-order>
+               <name>INSTRUMENT_TYPE</name>
+               <data-storage-type>TEXT</data-storage-type>
+               <max-length>255</max-length>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Code for general type of instrument deployed (e.g., STR = Subsurface Temperature Recorder)</description>
+            </data-attribute>
+            <data-attribute cc-id="387401">
+               <seq-order>8</seq-order>
+               <name>INSTRUMENTSN</name>
+               <data-storage-type>TEXT</data-storage-type>
+               <max-length>255</max-length>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Serial number of instrument deployed. This is a text field.</description>
+            </data-attribute>
+            <data-attribute cc-id="387397">
+               <seq-order>9</seq-order>
+               <name>DEPLOY_CRUISE</name>
+               <data-storage-type>TEXT</data-storage-type>
+               <max-length>255</max-length>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Unique identifier for the mission/cruise when the instrument was deployed. NULL if instrument was not deployed during a mission/cruise (e.g., a NOAA partner deployed the instrument on the NOAA Ecosystem Sciences Division's [ESD's] behalf).</description>
+            </data-attribute>
+            <data-attribute cc-id="387398">
+               <seq-order>10</seq-order>
+               <name>DEPLOY_UTC</name>
+               <data-storage-type>DATETIME</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>UTC date and time when the instrument was deployed in Zulu format (YYYY-MM-DD"T"HH24:MI:SS"Z").</description>
+            </data-attribute>
+            <data-attribute cc-id="387408">
+               <seq-order>11</seq-order>
+               <name>RETRIEVE_CRUISE</name>
+               <data-storage-type>TEXT</data-storage-type>
+               <max-length>255</max-length>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Unique identifier for the mission/cruise when the instrument was recovered. NULL if instrument was not recovered during a mission/cruise  (e.g., a NOAA partner recovered the instrument on the NOAA Ecosystem Sciences Division's [ESD's] behalf).</description>
+            </data-attribute>
+            <data-attribute cc-id="387409">
+               <seq-order>12</seq-order>
+               <name>RETRIEVE_UTC</name>
+               <data-storage-type>DATETIME</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>UTC date and time when the instrument was recovered  in Zulu format (YYYY-MM-DD"T"HH24:MI:SS"Z").</description>
+            </data-attribute>
+            <data-attribute cc-id="387414">
+               <seq-order>13</seq-order>
+               <name>VALID_DATA_START</name>
+               <data-storage-type>DATETIME</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Date and time the instrument began reporting valid data (YYYY-MM-DD"T"HH24:MI:SS"Z"). VALIDDATASTART should be equal to or later than DEPLOYUTC.</description>
+            </data-attribute>
+            <data-attribute cc-id="836034">
+               <seq-order>14</seq-order>
+               <name>INSTFIELDSUMMARYID</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Unique identifier for the instrument deployed.</description>
+            </data-attribute>
+            <data-attribute cc-id="387413">
+               <seq-order>15</seq-order>
+               <name>VALID_DATA_END</name>
+               <data-storage-type>DATETIME</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Date and time the instrument stopped reporting valid data (YYYY-MM-DD"T"HH24:MI:SS"Z"). VALIDDATAEND should be earlier than or equal to RETRIEVEUTC.</description>
+            </data-attribute>
+            <data-attribute cc-id="387415">
+               <seq-order>16</seq-order>
+               <name>YEAR</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>4-digit year of the temperature observation (TIMESTAMP).</description>
+            </data-attribute>
+            <data-attribute cc-id="387406">
+               <seq-order>17</seq-order>
+               <name>MONTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Numeric month for the temperature observation, 1-12 (TIMESTAMP).</description>
+            </data-attribute>
+            <data-attribute cc-id="387396">
+               <seq-order>18</seq-order>
+               <name>DAY</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Numeric day for the temperature observation, 1-31 (TIMESTAMP).</description>
+            </data-attribute>
+            <data-attribute cc-id="387400">
+               <seq-order>19</seq-order>
+               <name>HOUR</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Numeric hour for the temperature observation, 0-23 (TIMESTAMP).</description>
+            </data-attribute>
+            <data-attribute cc-id="836035">
+               <seq-order>20</seq-order>
+               <name>MINUTE</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Numeric minute for the temperature observation, 0-59 (TIMESTAMP).</description>
+            </data-attribute>
+            <data-attribute cc-id="836036">
+               <seq-order>21</seq-order>
+               <name>SECOND</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Numeric second for the temperature observation, 0-59 (TIMESTAMP).</description>
+            </data-attribute>
+            <data-attribute cc-id="387412">
+               <seq-order>22</seq-order>
+               <name>TIMESTAMP</name>
+               <data-storage-type>TIMESTAMP</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>UTC date and time of the temperature observation (YYYY-MM-DD"T"HH24:MI:SS"Z"). TIMESTAMP should be within VALIDDATASTART and VALIDDATAEND.</description>
+            </data-attribute>
+            <data-attribute cc-id="387411">
+               <seq-order>23</seq-order>
+               <name>TEMP_C</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <required>No</required>
+               <primary-key>No</primary-key>
+               <status>Active</status>
+               <description>Water temperature in degrees Celsius.</description>
+               <units>degree C</units>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+   </entity-attribute-information>
+   <support-roles>
+      <support-role cc-id="387323" in-effect="Yes">
+         <support-role-type>Data Set Credit</support-role-type>
+         <from-date>2011</from-date>
+         <contact-type>Organization</contact-type>
+         <contact-name>NOAA Coral Reef Conservation Program</contact-name>
+         <contact-noaa-acronym>CRCP</contact-noaa-acronym>
+         <contact-address>1305 East West Highway 10th Floor</contact-address>
+         <contact-address-city>Silver Spring</contact-address-city>
+         <contact-address-state>MD</contact-address-state>
+         <contact-address-zip>20910-3281</contact-address-zip>
+         <contact-phone-number>(301) 713-3155</contact-phone-number>
+         <contact-url>https://coralreef.noaa.gov</contact-url>
+         <contact-url-description>Link to the NOAA Coral Reef Conservation Program website</contact-url-description>
+         <contact-url-function>Online Resource</contact-url-function>
+      </support-role>
+      <support-role cc-id="836509" in-effect="Yes">
+         <support-role-type>Data Steward</support-role-type>
+         <from-date>2018</from-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Barkley, Hannah C</contact-name>
+         <contact-email>hannah.barkley@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+      </support-role>
+      <support-role cc-id="387501" in-effect="No">
+         <support-role-type>Data Steward</support-role-type>
+         <from-date>2016</from-date>
+         <to-date>2017</to-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Oliver, Thomas</contact-name>
+         <contact-email>thomas.oliver@noaa.gov</contact-email>
+         <contact-orcid>https://orcid.org/0000-0002-0684-1287</contact-orcid>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(808)725-5444</contact-phone-number>
+      </support-role>
+      <support-role cc-id="387322" in-effect="No">
+         <support-role-type>Data Steward</support-role-type>
+         <from-date>2013</from-date>
+         <to-date>2016</to-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Clark, Jeanette</contact-name>
+         <contact-email>jeanette.clark@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(808)725-5484</contact-phone-number>
+         <contact-instructions>Email preferred</contact-instructions>
+      </support-role>
+      <support-role cc-id="387321" in-effect="Yes">
+         <support-role-type>Distributor</support-role-type>
+         <from-date>2017</from-date>
+         <contact-type>Organization</contact-type>
+         <contact-name>NOAA National Centers for Environmental Information</contact-name>
+         <contact-noaa-acronym>NCEI</contact-noaa-acronym>
+         <contact-email>ncei.info@noaa.gov</contact-email>
+         <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         <contact-url>https://www.ncei.noaa.gov/contact</contact-url>
+         <contact-url-name>NCEI Contact Information</contact-url-name>
+         <contact-url-description>Information for contacts at NCEI.</contact-url-description>
+         <contact-url-function>Online Resource</contact-url-function>
+      </support-role>
+      <support-role cc-id="387316" in-effect="No">
+         <support-role-type>Distributor</support-role-type>
+         <from-date>2013</from-date>
+         <to-date>2017</to-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Trick, Kevin L</contact-name>
+         <contact-email>kevin.trick@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>808-725-5421</contact-phone-number>
+         <contact-instructions>Email preferred</contact-instructions>
+      </support-role>
+      <support-role cc-id="1454600" in-effect="Yes">
+         <support-role-type>Metadata Contact</support-role-type>
+         <from-date>2025-11-12</from-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Luers, Lori H</contact-name>
+         <contact-email>lori.luers@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+      </support-role>
+      <support-role cc-id="1055954" in-effect="Yes">
+         <support-role-type>Metadata Contact</support-role-type>
+         <from-date>2021</from-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Trick, Kevin L</contact-name>
+         <contact-email>kevin.trick@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>808-725-5421</contact-phone-number>
+         <contact-instructions>EMail prefered</contact-instructions>
+      </support-role>
+      <support-role cc-id="387318" in-effect="No">
+         <support-role-type>Metadata Contact</support-role-type>
+         <from-date>2011</from-date>
+         <to-date>2020</to-date>
+         <contact-type>Person</contact-type>
+         <contact-name>DesRochers, Annette M</contact-name>
+         <contact-email>annette.desrochers@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(808)725-5461</contact-phone-number>
+         <contact-business-hours>8 am - 5 pm</contact-business-hours>
+         <contact-instructions>Email preferred</contact-instructions>
+      </support-role>
+      <support-role cc-id="387319" in-effect="Yes">
+         <support-role-type>Originator</support-role-type>
+         <from-date>2011</from-date>
+         <contact-type>Organization</contact-type>
+         <contact-name>Pacific Islands Fisheries Science Center</contact-name>
+         <contact-noaa-acronym>PIFSC</contact-noaa-acronym>
+         <contact-email>pifsc.info@noaa.gov</contact-email>
+         <contact-ror>https://ror.org/02apffz65</contact-ror>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>808-725-5360</contact-phone-number>
+         <contact-url>https://www.pifsc.noaa.gov</contact-url>
+         <contact-url-description>Pacific Island Fisheries Science Center homepage
+</contact-url-description>
+         <contact-url-function>Online Resource</contact-url-function>
+         <contact-business-hours>8:00 a.m. - 4:30 p.m.</contact-business-hours>
+      </support-role>
+      <support-role cc-id="836510" in-effect="Yes">
+         <support-role-type>Point of Contact</support-role-type>
+         <from-date>2018</from-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Barkley, Hannah C</contact-name>
+         <contact-email>hannah.barkley@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+      </support-role>
+      <support-role cc-id="387317" in-effect="No">
+         <support-role-type>Point of Contact</support-role-type>
+         <from-date>2015</from-date>
+         <to-date>2017</to-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Oliver, Thomas</contact-name>
+         <contact-email>thomas.oliver@noaa.gov</contact-email>
+         <contact-orcid>https://orcid.org/0000-0002-0684-1287</contact-orcid>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(808)725-5444</contact-phone-number>
+         <contact-instructions>Email preferred</contact-instructions>
+      </support-role>
+      <support-role cc-id="387320" in-effect="No">
+         <support-role-type>Point of Contact</support-role-type>
+         <from-date>2011</from-date>
+         <to-date>2015</to-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Young, Charles W</contact-name>
+         <contact-email>charles.young@noaa.gov</contact-email>
+         <contact-address>1845 Wasp Blvd.</contact-address>
+         <contact-address-city>Honolulu</contact-address-city>
+         <contact-address-state>HI</contact-address-state>
+         <contact-address-zip>96818</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-instructions>Email preferred</contact-instructions>
+      </support-role>
+   </support-roles>
+   <extents>
+      <currentness-reference>Ground Condition</currentness-reference>
+      <extent cc-id="387324">
+         <description>Mariana Archipelago</description>
+         <geographic-areas>
+            <geographic-area cc-id="387326">
+               <west-bound>144.69916</west-bound>
+               <east-bound>145.853633</east-bound>
+               <north-bound>20.545262</north-bound>
+               <south-bound>13.24121</south-bound>
+               <description>Spatial extent of temperature data from STRs recovered during MARAMP 2014,  MARAMP 2017 and MARAMP 2022 from sites across the Mariana Archipelago, including Agrihan (2017), Aguijan, Alamagan (2014 and 2017), Asuncion, Farallon de Pajaros, Guam, Guguan (2017), Maug, Pagan, Rota, Saipan, Sarigan (2014 and 2017), Supply (2014 and 2017), Tinian, and Zealandia (2014 and 2022).</description>
+            </geographic-area>
+         </geographic-areas>
+         <time-frames>
+            <time-frame cc-id="387325">
+               <time-frame-type>Range</time-frame-type>
+               <start-date-time>2011-04-07</start-date-time>
+               <end-date-time>2014-05-07</end-date-time>
+               <alternate-start-as-of-info>HA1101</alternate-start-as-of-info>
+               <alternate-end-as-of-info>HA1401</alternate-end-as-of-info>
+               <description>Date range of temperature data from STRs recovered from sites across the Mariana Archipelago during MARAMP 2014. Instruments were deployed during MARAMP 2011.</description>
+            </time-frame>
+            <time-frame cc-id="836511">
+               <time-frame-type>Range</time-frame-type>
+               <start-date-time>2011-04-20</start-date-time>
+               <end-date-time>2017-06-20</end-date-time>
+               <alternate-start-as-of-info>HA1101 or HA1401</alternate-start-as-of-info>
+               <alternate-end-as-of-info>HA1701</alternate-end-as-of-info>
+               <description>Date range of temperature data from STRs recovered from sites across the Mariana Archipelago during MARAMP 2017. Instruments were deployed during MARAMP 2011 or MARAMP 2014.</description>
+            </time-frame>
+            <time-frame cc-id="1269663">
+               <time-frame-type>Range</time-frame-type>
+               <start-date-time>2014-05-07</start-date-time>
+               <end-date-time>2022-08-06</end-date-time>
+               <alternate-start-as-of-info>HA1401 or HA1701</alternate-start-as-of-info>
+               <alternate-end-as-of-info>RA2201</alternate-end-as-of-info>
+               <description>Date range of temperature data from STRs recovered from sites across the Mariana Archipelago during MARAMP 2022. Instruments were deployed during MARAMP 2014 or MARAMP 2017.</description>
+            </time-frame>
+            <time-frame cc-id="1473523">
+               <time-frame-type>Range</time-frame-type>
+               <start-date-time>2022-08-01</start-date-time>
+               <end-date-time>2025</end-date-time>
+               <description>Date range of temperature data from STRs recovered from sites across the Mariana Archipelago during NCRMP 2025. Instruments were deployed during MARAMP 2022</description>
+            </time-frame>
+         </time-frames>
+      </extent>
+   </extents>
+   <access-information>
+      <data-license-type>Custom</data-license-type>
+      <security-class>Unclassified</security-class>
+      <security-classification-system>Not applicable</security-classification-system>
+      <security-handling-description>Not applicable</security-handling-description>
+      <data-access-policy>NOAA Coral Reef Ecosystem Program (CREP) Data Sharing Recommendations, version 9.0 updated August 12, 2015:
+
+CREP welcomes the opportunity to collaborate on research issues contributing to the scientific basis for better management of marine ecosystems. CREP has a very diverse set of field activities that generates large volumes of data using an array of data collection protocols.
+
+The following recommendations are for your consideration as you use this data:
+
+1) Data analyses should take all field exigencies into account. The most effective way to do this would be active collaboration with CREP principal investigators.
+
+2) In all presentations, product releases, or publications using data generated by CREP, proper acknowledgement of both CREP and the individuals responsible for data collection is expected. Citing the DOI (if available) is preferred, a non-DOI example is listed below.
+
+3) If you collect or generate data for the same study areas, CREP requests that you share relevant information on complimentary data collections.
+
+4) Those receiving data are strongly urged to inform the CREP Data Management Team of any errors and discrepancies that are discovered during the course of using these data. They are further urged to bring to the attention of the Team all problems and difficulties encountered in using these data. This information is necessary in order to improve the collections and to facilitate more efficient and economical data processing and retrieval. The users are asked to supply copies of any missing data that may be located, and to provide information as to significant subsets and special aggregations of data that are developed in using the material provided.
+
+Example acknowledgment:
+
+"This publication makes use of data products gathered by the Ecosystem Sciences Division (ESD), Pacific Islands Fisheries Science Center (PIFSC), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA), with funding support from the NOAA Coral Reef Conservation Program. The analysis and interpretations presented here are solely that of the current authors.Ã¢Â&#x80;Â&#x9d;</data-access-policy>
+      <data-access-procedure>Data can be accessed online via the NOAA National Centers for Environmental Information (NCEI) Ocean Archive.</data-access-procedure>
+      <data-access-constraints>None</data-access-constraints>
+      <data-use-constraints>These oceanographic data are PRELIMINARY data and have not been screened for accuracy. NOAA can not be held liable for use of these data in a manner other than for perusal of preliminary oceanographic data for scientific research on coral reefs ecosystems.
+
+Please cite NOAA Fisheries Ecosystem Sciences Division (ESD) when using the data.
+
+Suggested citation:
+
+Ecosystem Sciences Division, Pacific Islands Fisheries Science Center, 2025: National Coral Reef Monitoring Program: Water Temperature Data from Subsurface Temperature Recorders (STRs) deployed at coral reef sites in the Mariana Archipelago from 2011 to 2025, https://www.fisheries.noaa.gov/inport/item/37071.</data-use-constraints>
+      <metadata-access-constraints>None</metadata-access-constraints>
+      <metadata-use-constraints>None</metadata-use-constraints>
+   </access-information>
+   <distribution-information>
+      <distribution cc-id="1473520">
+         <download-url>https://accession.nodc.noaa.gov/#</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2025_Marianas_QC.pdf</file-name>
+         <description>Quality control report generated for temperature data from subsurface temperature recorders (STRs) recovered from sites across the Mariana Archipelago in 2025 by the NOAA Fisheries Ecosystem Sciences Division.</description>
+         <distribution-format>PDF - Adobe Portable Document Format</distribution-format>
+      </distribution>
+      <distribution cc-id="1473521">
+         <download-url>https://accession.nodc.noaa.gov/#</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2025_Marianas_split.csv</file-name>
+         <description>Zip file containing a series of 19 split CSV files (1-million rows each, except for the last CSV file in the series) of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2022 and deployed in 2025. Sample interval for most instruments is every 5-10 minutes. Available as both zipped and unzipped .csv files.  Refer to the README in the 0-data folder of the archive folder.</description>
+         <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
+      </distribution>
+      <distribution cc-id="1473522">
+         <download-url>https://accession.nodc.noaa.gov/#</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2025_Marianas.zip</file-name>
+         <description>Zipped folder containing the csv file</description>
+         <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
+         <compression>Zip</compression>
+      </distribution>
+      <distribution cc-id="387355">
+         <download-url>https://accession.nodc.noaa.gov/0162244</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2014_Marianas.zip</file-name>
+         <description>Zip file containing one CSV file of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2011 and recovered in 2014. Sample interval is every 1 hour.  Unzipped CSV file is 288,989 KB.</description>
+         <file-date-time>2021-03-05T14:29:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>ZIP</file-type>
+         <file-size>11,155 KB</file-size>
+         <compression>Zip</compression>
+      </distribution>
+      <distribution cc-id="905266">
+         <download-url>https://accession.nodc.noaa.gov/0162244</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2014_Marianas_QC.pdf</file-name>
+         <description>Quality control report generated for temperature data from subsurface temperature recorders (STRs) recovered from sites across the Mariana Archipelago in 2014 by the NOAA Fisheries Ecosystem Sciences Division.</description>
+         <file-date-time>2021-03-05T18:10:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>PDF</file-type>
+         <distribution-format>PDF - Adobe Portable Document Format</distribution-format>
+         <file-size>5,918 KB</file-size>
+      </distribution>
+      <distribution cc-id="904546">
+         <download-url>https://accession.nodc.noaa.gov/0162244</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2014_Marianas_split.zip</file-name>
+         <description>Zip file containing a series of split CSV files (1-million rows each, except for the last CSV file in the series) of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2011 and recovered in 2014. Sample interval is every 60 minutes. </description>
+         <file-date-time>2021-03-05T14:34:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>ZIP</file-type>
+         <file-size>11,156 KB</file-size>
+         <compression>Zip</compression>
+      </distribution>
+      <distribution cc-id="771809">
+         <download-url>https://accession.nodc.noaa.gov/0176112</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2017_Marianas.zip</file-name>
+         <description>Zip file containing one CSV file of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2014 and recovered in 2017 (includes instruments deployed in 2011 that weren't recovered in 2014). Sample interval is 1 hour for instruments deployed in 2011 and 5 minutes for instruments deployed in 2014. Unzipped CSV file is 3.15 GB.
+</description>
+         <file-date-time>2021-03-05T14:41:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>ZIP</file-type>
+         <file-size>119,042 KB</file-size>
+         <compression>Zip</compression>
+      </distribution>
+      <distribution cc-id="904547">
+         <download-url>https://accession.nodc.noaa.gov/0176112</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2017_Marianas_split.zip</file-name>
+         <description>Zip file containing a series of split CSV files (1-million rows each, except for the last CSV file in the series) of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2014 and recovered in 2017 (includes instruments deployed in 2011 that weren't recovered in 2014). Sample interval is 1 hour for instruments deployed in 2011 and 5 minutes for instruments deployed in 2014.</description>
+         <file-date-time>2021-03-05T14:42:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>ZIP</file-type>
+         <file-size>118,014 KB</file-size>
+         <compression>Zip</compression>
+      </distribution>
+      <distribution cc-id="904548">
+         <download-url>https://accession.nodc.noaa.gov/0176112</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2017_Marianas_QC.pdf</file-name>
+         <description>Quality control report generated for temperature data from subsurface temperature recorders (STRs) recovered from sites across the Mariana Archipelago in 2017 by the NOAA Fisheries Ecosystem Sciences Division.</description>
+         <file-date-time>2021-03-06T07:01:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>PDF</file-type>
+         <distribution-format>PDF - Adobe Portable Document Format</distribution-format>
+         <file-size>42,018 KB</file-size>
+      </distribution>
+      <distribution cc-id="1269664">
+         <download-url>https://accession.nodc.noaa.gov/0284762</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2022_Marianas_QC.pdf</file-name>
+         <description>Quality control report generated for temperature data from subsurface temperature recorders (STRs) recovered from sites across the Mariana Archipelago in 2022 by the NOAA Fisheries Ecosystem Sciences Division.</description>
+         <file-date-time>2023-08-29T00:00:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>PDF</file-type>
+         <distribution-format>PDF - Adobe Portable Document Format</distribution-format>
+         <file-size>55 KB</file-size>
+      </distribution>
+      <distribution cc-id="1269665">
+         <download-url>https://accession.nodc.noaa.gov/0284762</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2022_Marianas.csv</file-name>
+         <description>CSV file of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2014 and 2017 and recovered in 2022. Sample interval is every 5-10 minutes. </description>
+         <file-date-time>2023-08-29T00:00:00</file-date-time>
+         <!--Note: file-type is deprecated-->
+         <file-type>csv (comma-separated values)</file-type>
+         <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
+         <file-size>4.27 GB</file-size>
+      </distribution>
+      <distribution cc-id="1282962">
+         <download-url>https://accession.nodc.noaa.gov/0284762</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2022_Marianas_split.csv</file-name>
+         <description>Zip file containing a series of 19 split CSV files (1-million rows each, except for the last CSV file in the series) of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2014 and 2017 and recovered in 2022. Sample interval for most instruments is every 5-10 minutes. Available as both zipped and unzipped .csv files.  Refer to the README in the 0-data folder of the archive folder.
+</description>
+         <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
+         <file-size>3.89 GB</file-size>
+      </distribution>
+      <distribution cc-id="1473519">
+         <download-url>https://accession.nodc.noaa.gov/0284762</download-url>
+         <distributor cc-id="387321">
+            <from-date>2017</from-date>
+            <contact-type>Organization</contact-type>
+            <contact-name>NOAA National Centers for Environmental Information</contact-name>
+            <contact-ror>https://ror.org/04r0wrp59</contact-ror>
+         </distributor>
+         <file-name>ESD_NCRMP_Temperature_2025_Marianas.csv</file-name>
+         <description>CSV file of temperature data from subsurface temperature recorders (STRs) deployed by the NOAA Fisheries Ecosystem Sciences Division (ESD) across the Mariana Archipelago in 2022 and recovered in 2025. Sample interval is every 5-10 minutes. </description>
+         <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
+      </distribution>
+   </distribution-information>
+   <urls>
+      <url cc-id="387345">
+         <url>https://origin-apps-pifsc.fisheries.noaa.gov/cred/img/diver_deploying_small_instrument_med.jpg</url>
+         <name>A diver deploying a subsurface temperature recorder (STR)</name>
+         <url-type>Browse Graphic</url-type>
+         <file-resource-format>jpg</file-resource-format>
+      </url>
+      <url cc-id="387343">
+         <url>https://www.coris.noaa.gov/monitoring/</url>
+         <name>NOAA National Coral Reef Monitoring Program</name>
+         <url-type>Online Resource</url-type>
+         <description>Information about the NOAA National Coral Reef Monitoring Program (NCRMP) on the NOAA Coral Reef Information System website.</description>
+      </url>
+      <url cc-id="387344">
+         <url>https://www.fisheries.noaa.gov/region/pacific-islands#science</url>
+         <name>Science Overview in the Pacific Islands</name>
+         <url-type>Online Resource</url-type>
+      </url>
+   </urls>
+   <technical-environment>
+      <description>Data are downloaded from STRs using the SeaBird SeaTerm V2 program, post-processed in R, and migrated to the PIFSC Oracle database.
+
+PIFSC Oracle database view: MV_OCN_NCEI_STR_CNMI
+
+Data are exported by region and recovered year as one consolidated CSV file and zipped. The consolidated CSV files typically contain several million rows of data. Hence, the consolidated CSV file is also split into a series of 1-million row CSV files, which are also zipped.</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>INSTRUMENT SPECIFICATIONS
+
+Temperature (degrees Celsius): Measurement Range -5 to 35; Initial Accuracy +/-0.002, Typical Stability 0.0002 per month, Resolution 0.0001.
+
+Clock Accuracy: 5 seconds per month.</accuracy>
+      <completeness-report>Data from when the instrument was turned on but not yet deployed are removed, and data from the period between removal and data download are also removed. Information about instruments that were lost or that failed are excluded.</completeness-report>
+      <conceptual-consistency>All data gathered are consistent with the given methodology.</conceptual-consistency>
+      <quality-control-procedures>Quality control is conducted by PIFSC ESD personnel after the data is downloaded from the instrument during the cruise, when the data are post-processed, again after it is migrated to the database, and finally when it is packaged and submitted to the NOAA archive.</quality-control-procedures>
+   </data-quality>
+   <data-management>
+      <resources-identified>Yes</resources-identified>
+      <resources-budget-percentage>Unknown</resources-budget-percentage>
+      <data-access-directive-compliant>Yes</data-access-directive-compliant>
+      <data-access-directive-waiver>No</data-access-directive-waiver>
+      <delay-collection-dissemination>Unknown</delay-collection-dissemination>
+      <archive-location>NCEI-MD</archive-location>
+      <delay-collection-archive>Unknown</delay-collection-archive>
+      <data-protection-plan>The data is captured in several locations: files stored on the cruise server during the mission and the PIFSC network, and data are imported into the PIFSC Oracle database. The cruise server is regularly backed up by the cruise data manager while at sea, and the PIFSC network and Oracle database are maintained and regularly backed up by PIFSC ITS.</data-protection-plan>
+   </data-management>
+   <lineage>
+      <lineage-statement>Water temperature data are collected using high-accuracy subsurface temperature recorders (STRs) made by SeaBird Electronics (SBE). STRs are deployed on the reef for a period of 1-3 years (occasionally up to 8 years if the instrument was not retrieved during a mission) at depths ranging from 0-30 m at permanent monitoring sites established by the PIFSC Ecosystem Sciences Division.</lineage-statement>
+      <lineage-sources>
+         <lineage-source cc-id="836512">
+            <citation-title>RK Hoeke, JM Gove, E Smith, P Fisher-Pool, M Lammers, D Merritt, OJ Vetter, CW Young, KB Wong &amp; RE Brainard (2009) Coral reef ecosystem integrated observing system: In-situ oceanographic observations at the US Pacific islands and atolls, Journal of Operational Oceanography, 2:2, 3-14, DOI: 10.1080/1755876X.2009.12027737</citation-title>
+            <contact-type>Organization</contact-type>
+            <contact-name>Pacific Islands Fisheries Science Center</contact-name>
+            <contact-role-type>Originator</contact-role-type>
+            <publish-date>2009-01-01</publish-date>
+            <citation-url>https://doi.org/10.1080/1755876X.2009.12027737</citation-url>
+            <citation-url-name>Journal of Operational Oceanography</citation-url-name>
+            <source-contribution>The PIFSC Ecosystem Sciences Division's oceanography team collects data using a variety of methods as described in this paper on in-situ oceanographic observations.</source-contribution>
+         </lineage-source>
+         <lineage-source cc-id="903163">
+            <citation-title>Venegas, R.M., Oliver, T., Liu, G. et al. The Rarity of Depth Refugia from Coral Bleaching Heat Stress in the Western and Central Pacific Islands. Sci Rep 9, 19710 (2019). https://doi.org/10.1038/s41598-019-56232-1</citation-title>
+            <contact-type>Organization</contact-type>
+            <contact-name>Pacific Islands Fisheries Science Center</contact-name>
+            <contact-role-type>Originator</contact-role-type>
+            <publish-date>2019-12-23</publish-date>
+            <citation-url>https://doi.org/10.1038/s41598-019-56232-1</citation-url>
+            <citation-url-name>Nature Scientific Reports</citation-url-name>
+            <source-contribution>Current methodology</source-contribution>
+         </lineage-source>
+      </lineage-sources>
+      <lineage-process-steps>
+         <lineage-process-step cc-id="387350">
+            <sequence-number>1</sequence-number>
+            <description>STRs are attached to a mounting bracket, weighted, and strapped to solid substrate (attached dead coral or rock) at the benthos by SCUBA divers using cable ties. A GPS point is taken by surface support personnel at the surface float that is positioned directly above the instrument during the dive. The depth of the instrument is taken by photographing a diver depth gauge next to the serial number of the instrument after installation.
+
+On recovery, a second waypoint and depth are taken in the same manner as the deployment before cutting the instrument free. When a STR is recovered, typically another STR is deployed in the same location at the same depth and is assigned the same OCC_SITEID (as long as the coordinates are within 100-m diameter and 3-m depth cylinder of the pre-existing OCC_SITEID).</description>
+            <process-contact>
+               <contact-type>Person</contact-type>
+               <contact-name>Barkley, Hannah C</contact-name>
+               <contact-email>hannah.barkley@noaa.gov</contact-email>
+               <contact-address>1845 Wasp Blvd.</contact-address>
+               <contact-address-city>Honolulu</contact-address-city>
+               <contact-address-state>HI</contact-address-state>
+               <contact-address-zip>96818</contact-address-zip>
+               <contact-address-country>USA</contact-address-country>
+            </process-contact>
+         </lineage-process-step>
+         <lineage-process-step cc-id="387351">
+            <sequence-number>2</sequence-number>
+            <description>Data are downloaded using the SeaBird SeaTerm V2 program, and then post-processed in R. Data from when the instrument was turned on but not yet deployed are removed, and data from the period between removal and data download are also removed.</description>
+            <process-contact>
+               <contact-type>Person</contact-type>
+               <contact-name>Barkley, Hannah C</contact-name>
+               <contact-email>hannah.barkley@noaa.gov</contact-email>
+               <contact-address>1845 Wasp Blvd.</contact-address>
+               <contact-address-city>Honolulu</contact-address-city>
+               <contact-address-state>HI</contact-address-state>
+               <contact-address-zip>96818</contact-address-zip>
+               <contact-address-country>USA</contact-address-country>
+            </process-contact>
+         </lineage-process-step>
+      </lineage-process-steps>
+   </lineage>
+   <acquisition-information>
+      <instruments>
+         <instrument cc-id="836513" approved="Yes">
+            <identifier>In Situ/Laboratory Instruments</identifier>
+            <docucomp-uuid>54a82ce3-b520-4660-af2d-d3b6beebfc11</docucomp-uuid>
+            <instrument-gear>instrument</instrument-gear>
+            <instrument-type>instrument</instrument-type>
+            <description>Instrument Type: Sea floor and lakebed geologic sampling (coring, drilling, dredging, trawling, and/or grab sampling devices) and/or in situ measurements (cameras, visual observations, and/or recorders/loggers)</description>
+         </instrument>
+      </instruments>
+      <platform-unavailable-reason>Not Applicable</platform-unavailable-reason>
+   </acquisition-information>
+   <child-items>
+      <child-item>
+         <catalog-item-id>37074</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>STR Entity</title>
+      </child-item>
+   </child-items>
+   <related-items>
+      <related-item>
+         <catalog-item-id>37069</catalog-item-id>
+         <catalog-item-type>Data Set</catalog-item-type>
+         <title>National Coral Reef Monitoring Program: Water Temperature Data from Subsurface Temperature Recorders (STRs) deployed at coral reef sites in American Samoa from 2012 to 2023</title>
+         <relationship-type>Cross Reference</relationship-type>
+      </related-item>
+      <related-item>
+         <catalog-item-id>37070</catalog-item-id>
+         <catalog-item-type>Data Set</catalog-item-type>
+         <title>National Coral Reef Monitoring Program: Water Temperature Data from Subsurface Temperature Recorders (STRs) deployed at coral reef sites in the Hawaiian Archipelago from 2005 to 2024</title>
+         <relationship-type>Cross Reference</relationship-type>
+      </related-item>
+      <related-item>
+         <catalog-item-id>21443</catalog-item-id>
+         <catalog-item-type>Data Set</catalog-item-type>
+         <title>National Coral Reef Monitoring Program: Water Temperature Data from Subsurface Temperature Recorders (STRs) deployed at coral reef sites in the Pacific Remote Island Areas since 2011.</title>
+         <relationship-type>Cross Reference</relationship-type>
+      </related-item>
+      <related-item>
+         <catalog-item-id>34622</catalog-item-id>
+         <catalog-item-type>Data Set</catalog-item-type>
+         <title>Pacific Reef Assessment and Monitoring Program: Subsurface Temperature Recorders (STRs) at select coral reef locations across the Pacific Ocean from 2001 to 2012</title>
+         <relationship-type>Cross Reference</relationship-type>
+      </related-item>
+   </related-items>
+   <catalog-details>
+      <guid>gov.noaa.nmfs.inport:37071</guid>
+      <metadata-record-created-by pers-id="8987">Troy Kanemura</metadata-record-created-by>
+      <metadata-record-created>2017-03-08T19:12:47</metadata-record-created>
+      <metadata-record-last-modified-by pers-id="24903">Brighton Hedger</metadata-record-last-modified-by>
+      <metadata-record-last-modified>2026-07-16T23:46:56</metadata-record-last-modified>
+      <record-published>2025-08-05</record-published>
+      <owner-organization>Pacific Islands Fisheries Science Center</owner-organization>
+      <owner-organization-acronym>PIFSC</owner-organization-acronym>
+      <owner-organization-address>1845 Wasp Blvd.</owner-organization-address>
+      <owner-organization-address-city>Honolulu</owner-organization-address-city>
+      <owner-organization-address-state>HI</owner-organization-address-state>
+      <owner-organization-address-zip>96818</owner-organization-address-zip>
+      <owner-organization-address-country>USA</owner-organization-address-country>
+      <owner-organization-phone>808-725-5300</owner-organization-phone>
+      <owner-organization-url>https://www.pifsc.noaa.gov</owner-organization-url>
+      <owner-organization-business-hours>8:00 a.m. - 4:30 p.m.</owner-organization-business-hours>
+      <owner-organization-group-id>1001</owner-organization-group-id>
+      <publication-status>Withdrawn</publication-status>
+      <limited-metadata-available>No</limited-metadata-available>
+      <is-do-not-publish>No</is-do-not-publish>
+      <metadata-last-review-date>2023-08-30</metadata-last-review-date>
+      <metadata-review-frequency>1 Year</metadata-review-frequency>
+      <metadata-next-review-date>2024-08-30</metadata-next-review-date>
+   </catalog-details>
+</inport-metadata>

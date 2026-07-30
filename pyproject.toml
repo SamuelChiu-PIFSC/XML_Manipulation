@@ -5,8 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "duckdb>=1.5.5",
     "fastapi>=0.140.0",
     "uvicorn>=0.51.0",
+    "xmltodict>=1.0.4",
 ]
 
 [dependency-groups]

@@ -38,5 +38,5 @@ def update_xml_file(
             return True, "XML file updated successfully!"
 
         return False, "Section not found."
-    except Exception as e:      # noqa: BLE001
+    except Exception as e:
         return False, f"Failed to update XML: {e!s}"

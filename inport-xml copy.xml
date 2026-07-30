@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<inport-metadata version="1.11" source="https://www.fisheries.noaa.gov">
+<?xml version="1.0" encoding="UTF-8"?>
+<inport-metadata xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 version="1.11"
+                 source="https://www.fisheries.noaa.gov">
    <item-identification>
       <catalog-item-id>36155</catalog-item-id>
       <title>National Coral Reef Monitoring Program: Benthic Cover Derived from Analysis of Benthic Images Collected during Stratified Random Surveys (StRS) across the Hawaiian Archipelago from 2013 to 2019</title>
@@ -13,9 +15,21 @@
       <creation-date>2016-12</creation-date>
       <revision-date>2020-07</revision-date>
       <publication-date>2020</publication-date>
-      <abstract>This data has been combined into a US Pacific-wide InPort record: https://www.fisheries.noaa.gov/inport/item/77771. The coral reef benthic community data described here result from the annotation (classification) of benthic images collected during photoquadrat surveys conducted by the NOAA Pacific Islands Fisheries Science Center (PIFSC), Ecosystem Sciences Division (ESD, formerly the Coral Reef Ecosystem Division) as part of NOAA's ongoing National Coral Reef Monitoring Program (NCRMP). SCUBA divers conducted benthic photoquadrat surveys in coral reef habitats during ESD-led NCRMP missions to the islands and atolls of the Hawaiian Archipelago in 2013, 2016, and 2019 according to protocols established by ESD and NCRMP. Still photographs were collected with a high-resolution digital camera mounted on a pole to document the benthic community composition at predetermined points along transects at stratified random sites surveyed only once as part of Rapid Ecological Assessment (REA) surveys for corals and fish (Ayotte et al. 2015 and Winston et al. 2020, respectively), with 30 photoquadrat images collected at each survey site. A stratified random sampling (StRS) design was employed to survey these coral reef ecosystems. The StRS design effectively reduces estimate variance through stratification using environmental covariates and by sampling more sites rather than sampling more transects at a site. Therefore, site-level estimates and site to site comparisons should be used with caution. The benthic habitat images were quantitatively analyzed using the Coral Point Count with Excel extensions (CPCe; Kohler and Gill, 2006) software from 2010-2014 and using the web-based image annotation tool, CoralNet (Beijbom et al. 2015) from 2015 to present. Ten points were randomly overlaid on each image and analysts identified the organism or type of substrate beneath, with 300 annotations (points) generated per site following Lozada-Misa et al. (2017). Images are analyzed to produce three functional group levels of benthic cover: Tier 1 (e.g., hard coral, soft coral, macroalgae, turf algae), Tier 2 (e.g., Hard Coral = massive, branching, foliose, encrusting; Macroalgae = upright macroalgae, encrusting macroalgae, bluegreen macroalgae, and Halimeda), and Tier 3 (e.g., Hard Coral = Astreopora sp, Favia sp, Pocillopora; Macroalgae = Caulerpa sp, Dictyosphaeria sp, Padina sp).</abstract>
+      <abstract>This data has been combined into a US Pacific-wide InPort record:  https://www.fisheries.noaa.gov/inport/item/77771.
+
+The coral reef benthic community data described here result from the annotation (classification) of benthic images collected during photoquadrat surveys conducted by the NOAA Pacific Islands Fisheries Science Center (PIFSC), Ecosystem Sciences Division (ESD, formerly the Coral Reef Ecosystem Division) as part of NOAA's ongoing National Coral Reef Monitoring Program (NCRMP). 
+
+SCUBA divers conducted benthic photoquadrat surveys in coral reef habitats during ESD-led NCRMP missions to the islands and atolls of the Hawaiian Archipelago in 2013, 2016, and 2019 according to protocols established by ESD and NCRMP. Still photographs were collected with a high-resolution digital camera mounted on a pole to document the benthic community composition at predetermined points along transects at stratified random sites surveyed only once as part of Rapid Ecological Assessment (REA) surveys for corals and fish (Ayotte et al. 2015 and Winston et al. 2020, respectively), with 30 photoquadrat images collected at each survey site. A stratified random sampling (StRS) design was employed to survey these coral reef ecosystems. The StRS design effectively reduces estimate variance through stratification using environmental covariates and by sampling more sites rather than sampling more transects at a site. Therefore, site-level estimates and site to site comparisons should be used with caution.
+
+The benthic habitat images were quantitatively analyzed using the Coral Point Count with Excel extensions (CPCe; Kohler and Gill, 2006) software from 2010-2014 and using the web-based image annotation tool, CoralNet (Beijbom et al. 2015) from 2015 to present. Ten points were randomly overlaid on each image and analysts identified the organism or type of substrate beneath, with 300 annotations (points) generated per site following Lozada-Misa et al. (2017). Images are analyzed to produce three functional group levels of benthic cover: Tier 1 (e.g., hard coral, soft coral, macroalgae, turf algae), Tier 2 (e.g., Hard Coral = massive, branching, foliose, encrusting; Macroalgae = upright macroalgae, encrusting macroalgae, bluegreen macroalgae, and Halimeda), and Tier 3 (e.g., Hard Coral = Astreopora sp, Favia sp, Pocillopora; Macroalgae = Caulerpa sp, Dictyosphaeria sp, Padina sp).  
+
+</abstract>
       <purpose>The benthic data resulting from the collection and annotation of benthic imagery can ultimately be used to produce estimates of benthic community taxonomic composition, relative abundance (percentage of benthic cover), and frequency of occurrence, which are fundamental to understanding the status and change of coral reef benthic communities.</purpose>
-      <supplemental-information>Sam was here</supplemental-information>
+      <supplemental-information>The National Coral Reef Monitoring Program (NCRMP) details a long-term approach to provide an ecosystem perspective via monitoring climate, fish, benthic, and socioeconomic variables in a consistent and integrated manner. The NCRMP coordinates various Coral Reef Conservation Program (CRCP) biological, physical, and human dimensions activities into a cohesive NOAA-wide effort. Through the implementation of the NCRMP, NOAA is able to clearly and concisely communicate results of national-scale monitoring to national, state, and territorial policy makers, resource managers, and the public on a periodic basis.
+
+NCRMP is a framework for conducting sustained observations of biological, climate, and socioeconomic indicators at 10 priority coral reefs across the U.S. and its territories. This integrated approach consolidates monitoring of coral reefs under a uniform method in the Pacific, Atlantic, Caribbean, and the Gulf of Mexico for the first time. NCRMP is funded by the CRCP and supported by NOAA Fisheries, NOAA National Centers for Coastal Ocean Science (NCCOS), and many other partners. The Ecosystem Sciences Division (ESD) at NOAA Fisheries is leading biological monitoring in the U.S. Pacific Islands Region.
+
+The biological component of NCRMP in the Pacific provides a triennial ecological characterization at a broad spatial scale of general reef condition for reef fishes, corals and benthic habitat (i.e., fish species composition/density/size, benthic cover, and coral density/size/condition). Innovative analysis techniques are then used to develop products that give fellow scientists, managers, decision makers and the public a better understanding of a regionÃ¢Â&#x80;Â&#x99;s resources and how they are changing over time.</supplemental-information>
       <doi>https://doi.org/10.7289/v5js9nr4</doi>
       <doi-registration-authority>NOAA</doi-registration-authority>
    </item-identification>
@@ -1417,7 +1431,7 @@ Ecosystem Sciences Division, Pacific Islands Fisheries Science Center, 2020: Nat
          <file-name>PIFSC_H-17-02_2017_SOP_ImageAnalysis_CN.pdf</file-name>
          <description>PIFSC Administrative Report, January 2017: Analysis of benthic survey images via CoralNet : a summary of standard operating procedures and guidelines.</description>
          <file-date-time>2017-01-31T00:00:00</file-date-time>
-         
+         <!--Note: file-type is deprecated-->
          <file-type>PDF</file-type>
          <distribution-format>PDF - Adobe Portable Document Format</distribution-format>
       </distribution>
@@ -1432,7 +1446,7 @@ Ecosystem Sciences Division, Pacific Islands Fisheries Science Center, 2020: Nat
          <file-name>MV_BIA_CNET_ANALYSIS_DATA HAWAII 2013.csv</file-name>
          <description>Image analysis data derived from photoquadrat benthic images collected at stratified random sites across the main Hawaiian Islands in 2013 by the NOAA Coral Reef Ecosystem Program (CREP).</description>
          <file-date-time>2016-12-29T00:00:00</file-date-time>
-         
+         <!--Note: file-type is deprecated-->
          <file-type>csv (comma-separated values)</file-type>
          <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
          <file-size>24.2 mb</file-size>
@@ -1448,7 +1462,7 @@ Ecosystem Sciences Division, Pacific Islands Fisheries Science Center, 2020: Nat
          <file-name>MV_BIA_CNET_ANALYSIS_DATA HAWAII 2016.csv</file-name>
          <description>Image analysis data derived from photoquadrat benthic images collected at stratified random sites across the Hawaiian archipelago in 2016 by the NOAA Coral Reef Ecosystem Program (CREP).</description>
          <file-date-time>2017-07-10T00:00:00</file-date-time>
-         
+         <!--Note: file-type is deprecated-->
          <file-type>csv (comma-separated values)</file-type>
          <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
          <file-size>43.4 mb</file-size>
@@ -1464,7 +1478,7 @@ Ecosystem Sciences Division, Pacific Islands Fisheries Science Center, 2020: Nat
          <file-name>MV_BIA_CNET_ANALYSIS_DATA HAWAII 2019.csv</file-name>
          <description>Image analysis data derived from photoquadrat benthic images collected at stratified random sites across the Main Hawaiian Islands in 2019 by the NOAA Fisheries, Ecosystem Sciences Division (ESD).</description>
          <file-date-time>2020-07-29T00:00:00</file-date-time>
-         
+         <!--Note: file-type is deprecated-->
          <file-type>csv (comma-separated values)</file-type>
          <distribution-format>CSV - Comma Separated Values (Text)</distribution-format>
          <file-size>47.3 mb</file-size>
@@ -1481,7 +1495,7 @@ Ecosystem Sciences Division, Pacific Islands Fisheries Science Center, 2020: Nat
          <description>NOAA National Centers for Environmental Information (NCEI) ERDDAP web service for benthic cover data from stratified random surveys conducted by the PIFSC Ecosystem Sciences Division (ESD) during ESD-led NOAA National Coral Reef Monitoring Program missions to the Hawaiian Archipelago since 2013.
 
 ERDDAP acts as a middleman between you and various remote data servers. ERDDAP offers an easy-to-use, consistent way to request data: via the OPeNDAP standard. Many datasets can also be accessed via ERDDAP's Web Map Service (WMS). ERDDAP returns data in the common file format of your choice. ERDDAP offers all data as .html table, ESRI .asc and .csv, Google Earth .kml, OPeNDAP binary, .mat, .nc, ODV .txt, .csv, .tsv, .json, and .xhtml. ERDDAP can also return a .png or .pdf image with a customized graph or map. ERDDAP also has web pages (for humans with browsers) and RESTful web services (for computer programs).</description>
-         
+         <!--Note: file-type is deprecated-->
          <file-type>ERDDAP Data Server</file-type>
          <distribution-format>ERDDAP Data Service</distribution-format>
       </distribution>

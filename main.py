@@ -48,7 +48,7 @@ def chat(payload: ChatRequest):
                     "section_name": target_section,
                     "prose_dict": parsed_dict,
                 }
-        except Exception as e: # noqa: BLE001
+        except Exception as e:
             return {
                 "is_prose": False,
                 "reply": f"Error loading section: {e!s}",

@@ -1,5 +1,6 @@
-from google.adk.events import RequestInput
 from google.adk import Workflow
+from google.adk.events import RequestInput
+
 
 def step1(): # Human input step
   yield RequestInput(message="Enter a number:")

@@ -1,6 +1,4 @@
-from google.adk import Agent
-from google.adk import Workflow
-from google.adk import Event
+from google.adk import Agent, Event, Workflow
 from pydantic import BaseModel
 
 city_generator_agent = Agent(
