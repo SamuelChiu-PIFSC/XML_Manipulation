@@ -10,6 +10,35 @@ def xml_to_editable_dict(element: ET.Element) -> dict[str, str]:
         data[child_name] = val
     return data
 
+def search_xml(target_section: str, XML_FILE: str):
+    ''' Searches for a specific section in the XML file and returns its parsed dictionary representation.
+
+    args:
+        target_section (str): The name of the section to search for in the XML file.
+        XML_FILE (str): The path to the XML file to be searched.
+
+    returns:
+        dict: A dictionary representation of the found XML section, or None if the section is not found or an error occurs.
+    '''  # noqa: E501
+
+    try:
+        
+        tree = ET.parse(XML_FILE)
+        root = tree.getroot()
+
+        target = root.find(f".//{target_section}")
+
+        if target is None:
+            print(f"Warning: Section '{target_section}' not found in {XML_FILE}.")
+            return None
+
+        return xml_to_editable_dict(target)
+
+
+    except Exception as e:
+        print(f"Error occurred while searching for section: {e}")
+
+        return None
 
 def update_xml_file(
     file_path: str, section_name: str, updates: dict[str, str]
@@ -40,3 +69,5 @@ def update_xml_file(
         return False, "Section not found."
     except Exception as e:
         return False, f"Failed to update XML: {e!s}"
+
+    
